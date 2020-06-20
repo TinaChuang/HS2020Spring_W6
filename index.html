@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CRAFTsMAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/Week6/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/style/Week6/common.css">
+  
+</head>
+
+<body>
+  <header class="header">
+    <div class="container p-0 px-md-3">
+      <div class="row justify-content-between align-items-center py-3 py-md-4 px-4 px-md-0">
+        <div class="hamIcon d-md-none">
+          <a href="javascript:;">
+            <span class="material-icons text-dark" id="openMenu">menu</span>
+          </a>          
+        </div>
+        <div class="logo">
+          <a class="h4" href="./index.html">CRAFTsMAN</a>
+        </div>
+        <div class="d-md-none">
+          <a href="javascript:;"><span class="material-icons text-white">shopping_cart</span></a>
+        </div>
+        <nav class="nav d-none d-md-block">
+          <ul class="menu d-flex flex-row m-0 list-unstyled">
+            <li class="menuItem px-4"><a href="./product.html">Product</a></li>
+            <li class="menuItem px-4"><a href="javascript:;">Blog</a></li>
+            <li class="menuItem px-4"><a href="javascript:;">Contact</a></li>
+            <li class="menuItem px-4">
+              <a href="javascript:;" data-toggle="modal" data-target="#exampleModal"><span class="material-icons">shopping_cart</span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu bg-white p-3" id="mobileMenu">
+    <div class="d-flex justify-content-between">
+      <a href="#"><span class="material-icons text-dark" id="closeMenu">keyboard_backspace</span></a>
+      <a href="#"><span class="material-icons text-dark">shopping_cart</span></a>
+    </div>
+    <ul class="list-unstyled">
+      <li class="main-list py-3 font-weight-bold">
+        <a href="./product.html">Product</a>
+        <ul class="list-unstyled mt-3">
+          <li class="sub-list font-weight-normal py-2">ALL <span class="align-text-bottom">24</span></li>
+          <li class="sub-list font-weight-normal py-2">BOWL<span class="align-text-bottom">10</span></li>
+          <li class="sub-list font-weight-normal py-2">CUP<span class="align-text-bottom">8</span></li>
+          <li class="sub-list font-weight-normal py-2">PLATE<span class="align-text-bottom">3</span></li>
+          <li class="sub-list font-weight-normal py-2">VASE<span class="align-text-bottom">3</span></li>
+        </ul>
+      </li>
+      <li class="main-list py-3 font-weight-bold">
+        Blog
+      </li>
+      <li class="main-list py-3 font-weight-bold">
+        Contact
+      </li>
+    </ul>
+  </div>
+
+  <link rel="stylesheet" type="text/css" href="./assets/style/Week6/index.css">
+
+<main>
+  <div class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5 d-flex flex-column justify-content-center">
+          <h1>Enjoy Your<br/> Minimalist Lifestyle.</h1>
+          <h3>Enjoy Your Minimalist Lifestyle.</h3>
+          <p>
+            <button class="btn btn-primary d-block d-md-inline-block">Shop now</button>
+          </p>          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="material container-fluid">
+    <div class="row my-5 my-md-4">
+      <div class="col-12 col-md-6">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1473230841016-ca42011196d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" alt="">
+      </div>
+      <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+        <article class="py-3 py-md-0">
+          <p class="artTitle mb-3">Special Clays</p>
+          <p class="text-secondary mb-4">A general body formulation for contemporary earthenware is 25% kaolin, 25% ball clay, 35% quartz and 15% feldspar.</p>
+          <a href="#" class="font-weight-bold text-primary">learn more</a>
+        </article>
+      </div>
+    </div>
+    <div class="row my-4 d-flex flex-row-reverse">
+      <div class="col-12 col-md-6">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1572725394982-fbee32027b77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+      </div>
+      <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+        <article class="text-md-right text-left py-3 py-md-0">
+          <p class="artTitle mb-3">Less is more</p>
+          <p class="text-secondary mb-4">Trimming pottery can transform a weighty Earth-bound pot into one that is a pleasure to hold, look at, and use.</p>
+          <a href="#" class="font-weight-bold text-primary">learn more</a>
+        </article>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-12 col-md-6">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1541085478756-418a3402fcb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80" alt="">     
+      </div>
+      <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+        <article class="py-3 py-md-0">
+          <p class="artTitle mb-3">Marvelous Detail</p>
+          <p class="text-secondary mb-4">In <span class="font-italic">Craftsman</span>, the art director, working with marketers, develops or creates an idea of a new creation.</p>
+          <a href="#" class="font-weight-bold text-primary">learn more</a>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <div class="artDirector">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-4">
+          <p class="slogan font-weight-bold">“I want to make the life more simple by crafts.”</p>
+        </div>
+        <div class="col-12 col-md-5"></div>
+        <div class="col-12 col-md-3">
+          <article>
+            <p class="subTitle text-secondary mb-0">Art Director</p>
+            <p class="h4">Hsiao-Ming Chen</p>
+            <p class="text-info">
+              <a href="#" class="mr-3 text-primary">Instagram</a>
+              <a href="#" class="text-primary">Twitter</a>
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="artWorks my-5">
+    <div class="owl-carousel">
+      <div class="item">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1556207944-1e0033a54801?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" alt="">
+        <section>
+          <h4 class="itemTitle h4 font-weight-bold">Tatami Cup</h4>
+          <p>NT$1,080 <span class="text-secondary text-line-through pl-1">NT$1,200</span></p>
+        </section>
+      </div>
+      <div class="item">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1572003414077-38770ebec0a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+        <section>
+          <h4 class="itemTitle h4 font-weight-bold">Couple Collection</h4>
+          <p>NT$2,800</p>
+        </section>
+      </div>
+      <div class="item">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1559810087-893a00a35608?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+        <section>
+          <h4 class="itemTitle h4 font-weight-bold">Brotherhood Vase</h4>
+          <p>NT$4,800</p>
+        </section>
+      </div>
+      <div class="item">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1572003414030-4175bcadd3cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+        <section>
+          <h4 class="itemTitle h4 font-weight-bold">Baifan Bowl</h4>
+          <p>NT$1,800</p>
+        </section>
+      </div>
+      <div class="item">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1572003414077-38770ebec0a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+        <section>
+          <h4 class="itemTitle h4 font-weight-bold">Tatami Cup</h4>
+          <p>NT$1,080 <span class="text-secondary text-line-through pl-1">NT$1,200</span></p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+
+</main>
+
+
+
+  <div class="connect">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-6">
+          <h3 class="title text-white font-weight-bold mb-5">Subscribe for news and special offers!</h3>
+          <div class="input-group">
+            <input type="text" class="form-control custom-text-input" id="validationTooltipUsername" placeholder="Your email address">
+            <div class="input-group-append">
+              <span class="btn btn-primary">Subscribe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-content-center">
+      <div class="mb-5 mb-md-0">
+        <a class="logo pr-3" href="#">CRAFTsMAN</a>
+        <span class="copyRight d-none d-md-block">© 2020. All Rights Reserved.</span>
+      </div>
+      <div class="mb-5 mb-md-0">
+        <ul class="d-flex flex-column flex-md-row m-0 list-unstyled">
+          <li class="px-md-2 mb-3 mb-md-0"><a href="javascript:;">Purchase Policy</a></li>
+          <li class="px-md-2 mb-3 mb-md-0"><a href="javascript:;">Privacy Policy</a></li>
+          <li class="px-md-2 mb-3 mb-md-0"><a href="javascript:;">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <span class="copyRight d-block d-md-none">© 2020. All Rights Reserved.</span>    
+    </div>
+  </footer>
+
+  <!-- Modal -->
+<div class="modal right fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog m-0">
+    <div class="modal-content rounded-0 py-4 px-5">
+      <div class="modal-header border-0">
+        <h5 class="modal-title h3 font-weight-bold" id="exampleModalLabel">
+          Cart List
+          <span class="align-text-top text-primary text-small">3</span>
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span class="material-icons">clear</span>
+        </button>
+      </div>
+      <div class="modal-body ">
+        <div class="cartList mb-4">
+          <div class="d-flex itemCard mb-2">
+            <img class="img-left img-fluid" src="https://images.unsplash.com/photo-1559810087-893a00a35608?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+            <div class="w-100 bg-light p-3 position-relative">
+              <h4 class="font-weight-bold">Tatami Cup</h4>
+              <p class="text-secondary">
+                NT$1,080
+                <span class="text-line-through text-small">NT$1,200</span>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="prod-quantity bg-light">
+                  <button class="btn rounded-left">
+                    <span class="material-icons align-middle">remove</span>
+                    
+                  </button>
+                  <span class="prod-quantity-num px-1">1</span>
+                  <button class="btn rounded-right">
+                    <span class="material-icons align-middle">add</span>
+                  </button>
+                </div>
+                <p class="font-weight-bold m-1">NT$1,080</p>
+              </div>
+              <button type="button" class="close position-absolute m-3">
+                <span class="material-icons">clear</span>
+              </button>
+            </div>
+          </div>
+          <div class="d-flex itemCard mb-2">
+            <img class="img-left img-fluid" src="https://images.unsplash.com/photo-1559810087-893a00a35608?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+            <div class="w-100 bg-light p-3 position-relative">
+              <h4 class="font-weight-bold">Tatami Cup</h4>
+              <p class="text-secondary">
+                NT$1,080
+                <span class="text-line-through text-small">NT$1,200</span>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="prod-quantity bg-light">
+                  <button class="btn rounded-left">
+                    <span class="material-icons align-middle">remove</span>
+                    
+                  </button>
+                  <span class="prod-quantity-num px-1">1</span>
+                  <button class="btn rounded-right">
+                    <span class="material-icons align-middle">add</span>
+                  </button>
+                </div>
+                <p class="font-weight-bold m-1">NT$1,080</p>
+              </div>
+              <button type="button" class="close position-absolute m-3">
+                <span class="material-icons">clear</span>
+              </button>
+            </div>
+          </div>
+        </div>        
+        <div class="priceArea d-flex">
+          <div class="emptyBlock"></div>
+          <div class="d-flex flex-column w-100">
+            <p class="d-flex justify-content-between">
+              <span>Subtotal</span>
+              <span>NT$4,680</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Shipping</span>
+              <span>NT$80</span>
+            </p>
+            <p class="d-flex justify-content-between font-weight-bold mb-4 h4">
+              <span>Total</span>
+              <span>NT$4,760</span>
+            </p>
+            <button type="button" class="btn btn-primary py-3">Checkout</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="./assets/js/Week6/index.js"></script>
+</body>
+
+</html>

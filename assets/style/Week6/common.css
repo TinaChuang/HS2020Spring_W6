@@ -1,0 +1,166 @@
+.header {
+  width: 100%;
+  z-index: 100; }
+  .header .logo {
+    font-family: 'Raleway'; }
+
+.mobile-menu {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100; }
+  .mobile-menu .main-list {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6); }
+    .mobile-menu .main-list ul {
+      border-top: 1px solid rgba(0, 0, 0, 0.6); }
+  .mobile-menu .sub-list {
+    color: rgba(0, 0, 0, 0.6); }
+
+.connect {
+  background-image: url("https://images.unsplash.com/photo-1580485978320-cc2bc7dcf569?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  @media (max-width: 768px) {
+    .connect {
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.unsplash.com/photo-1580485978320-cc2bc7dcf569?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1580485978320-cc2bc7dcf569?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1580485978320-cc2bc7dcf569?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); } }
+  .connect .row {
+    min-height: 400px; }
+    @media (max-width: 768px) {
+      .connect .row {
+        min-height: 224px; } }
+  .connect .title {
+    font-size: 3rem;
+    line-height: 4rem; }
+    @media (max-width: 768px) {
+      .connect .title {
+        font-size: 2rem;
+        line-height: 3rem; } }
+  .connect .custom-text-input {
+    background-color: rgba(255, 255, 255, 0);
+    line-height: 3.5rem;
+    height: 3.5rem;
+    color: #FFFFFF99; }
+  .connect .input-group-append .btn {
+    line-height: 3.5rem;
+    padding: 0 2.75rem; }
+    @media (max-width: 768px) {
+      .connect .input-group-append .btn {
+        padding: 0 1.5rem; } }
+
+.footer {
+  background-color: #121212;
+  padding: 2rem 0; }
+  .footer .logo {
+    font-family: 'Raleway';
+    font-size: 1.5rem; }
+  .footer .copyRight {
+    color: #fff;
+    opacity: .6;
+    font-size: .75rem; }
+  .footer a {
+    color: #fff; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem; }
+
+.material-icons {
+  font-family: 'Material Icons'; }
+
+.text-line-through {
+  text-decoration: line-through; }
+
+.text-small {
+  font-size: .8em; }
+
+a {
+  color: #121212; }
+  a:hover, a:active {
+    color: #0E8A00;
+    text-decoration: none;
+    font-weight: bold; }
+
+.menuItem.active a {
+  color: #0E8A00;
+  font-weight: bold; }
+
+.pageItem {
+  display: inline-block; }
+  .pageItem.active a, .pageItem a:hover {
+    color: #0E8A00;
+    text-decoration: underline; }
+
+.card a:hover, .card a:active {
+  color: inherit;
+  font-weight: inherit; }
+
+.card .saleMark {
+  z-index: 2;
+  right: 0;
+  font-size: 0.75rem; }
+
+@media only screen and (max-width: 768px) {
+  .card-columns {
+    -webkit-column-count: 2 !important;
+       -moz-column-count: 2 !important;
+            column-count: 2 !important; }
+  .card-columns .card img {
+    max-height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover; } }
+
+.carouselList img {
+  height: 200px;
+  width: auto; }
+
+.modal.right .modal-content {
+  height: 100vh; }
+
+.modal.right .modal-dialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;
+  max-width: 800px;
+  height: 100%;
+  -webkit-transform: translate(10%, 0);
+      -ms-transform: translate(10%, 0);
+          transform: translate(10%, 0); }
+
+.modal.right.show .modal-dialog {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0); }
+
+.cartList .itemCard .img-left {
+  width: 45%;
+  min-width: 112px; }
+
+.cartList .close {
+  top: 0;
+  right: 0; }
+
+.priceArea .emptyBlock {
+  width: 45%;
+  min-width: 112px; }
+
+.prodDetail .card .saleMark {
+  width: 100%; }
+
+.prodDetail .prod-nameCard {
+  right: 0;
+  -webkit-transform: translate(0, 50%);
+      -ms-transform: translate(0, 50%);
+          transform: translate(0, 50%); }
+
+.prodDetail .breadcrumb {
+  background-color: #fff; }
+
+/*# sourceMappingURL=common.css.map */

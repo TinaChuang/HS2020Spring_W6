@@ -1,0 +1,13 @@
+.prodDetail .card .saleMark {
+  width: 100%; }
+
+.prodDetail .prod-nameCard {
+  right: 0;
+  -webkit-transform: translate(0, 50%);
+      -ms-transform: translate(0, 50%);
+          transform: translate(0, 50%); }
+
+.prodDetail .breadcrumb {
+  background-color: #fff; }
+
+/*# sourceMappingURL=detail.css.map */
